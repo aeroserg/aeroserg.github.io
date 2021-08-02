@@ -1,0 +1,28 @@
+.row {
+	background-image: linear-gradient(to top, pink, #30D5c8);
+}
+
+.header {
+ font-family: 'Bad Script', cursive;
+	text-align: center;	
+	color: red;
+ font-size: 70px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+
+}
+
+.b-box {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.a-box
+{
+	font-family: 'Tenor Sans', sans-serif;
+	text-align: center;
+	color: white;
+	margin-left: 40px;
+	padding-top: 30px;
+ font-size: 20px;
+}
