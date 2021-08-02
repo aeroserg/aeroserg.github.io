@@ -1,8 +1,8 @@
-.row {
+body {
 	background-image: linear-gradient(to top, pink, #30D5c8);
 }
 
-.header {
+.col-md-8.offset-md-1 {
  font-family: 'Bad Script', cursive;
 	text-align: center;	
 	color: red;
@@ -12,12 +12,12 @@
 
 }
 
-.b-box {
+.col-md-10.offset-md-1 {
 	text-align: center;
 	padding-top: 75px;
 }
 
-.a-box
+.col-md-10.offset-md-1
 {
 	font-family: 'Tenor Sans', sans-serif;
 	text-align: center;
