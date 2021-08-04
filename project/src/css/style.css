@@ -8,7 +8,7 @@ padding: 0;
 perspective: 1px;
 transform-style: preserve-3d;
 overflow-y: scroll;
-overflow-x: hidden;
+overflow-x: scroll;
 font-family: Calibri;
 border-color: black;
 }
@@ -32,11 +32,12 @@ z-index: -1;
 transform-origin: center;
  min-height: 10vh;
  background-image: url(https://github.com/aeroserg/aviationphotography/blob/main/project/src/img/pedestalpanel.jpeg?raw=true);
- background-repeat: repeat-y;
+ background-repeat: none;
  background-size: cover;
  transition: 1s;
  transform: translateZ(-1px) scale(2);
 }
+
 header h1 {
 font-size: 100px;
 color: transparent;
@@ -55,3 +56,10 @@ header h2{
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to right, #0bcfcd, #0bcfcd, #0bcfcd, #0bcfcd, #30d5c8, #ed97e6, #f061bf, #f061bf, #f061bf, #f061bf, #f061bf);
 }
+
+.box {
+font-size: 50px;
+color: #000;
+background-color: #000;
+height: 50px;
+} 
