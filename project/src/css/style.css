@@ -31,7 +31,7 @@ top: 0;
 z-index: -1;
 transform-origin: center;
  min-height: 10vh;
- background-image: url(C:/Users/321/Desktop/project/src/img/pedestalpanel.jpeg);
+ background-image: url(project/src/img/pedestalpanel.jpeg);
  background-repeat: repeat-y;
  background-size: cover;
  transition: 1s;
