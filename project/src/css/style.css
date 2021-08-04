@@ -1,0 +1,57 @@
+html {
+height: 100;
+overflow: hidden;
+}
+body {
+margin: 0;
+padding: 0;
+perspective: 1px;
+transform-style: preserve-3d;
+overflow-y: scroll;
+overflow-x: hidden;
+font-family: Calibri;
+border-color: black;
+}
+header {
+box-sizing: border-box;
+min-height: 300vh;
+text-align: center;
+padding-top: 18%;
+transform-style: inherit;
+width: 100vw;
+}
+header::before {
+content: '';
+display: black;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+z-index: -1;
+transform-origin: center;
+ min-height: 10vh;
+ background-image: url(C:/Users/321/Desktop/project/src/img/pedestalpanel.jpeg);
+ background-repeat: repeat-y;
+ background-size: cover;
+ transition: 1s;
+ transform: translateZ(-1px) scale(2);
+}
+header h1 {
+font-size: 100px;
+color: transparent;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to right, #0bcfcd, #f061bf);
+}
+header a{
+	text-decoration: none;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+}
+
+header h2{
+	color: transparent;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to right, #0bcfcd, #0bcfcd, #0bcfcd, #0bcfcd, #30d5c8, #ed97e6, #f061bf, #f061bf, #f061bf, #f061bf, #f061bf);
+}
