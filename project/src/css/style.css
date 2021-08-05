@@ -1,13 +1,13 @@
 html {
 height: 100;
-overflow: hidden;
+overflow: auto;
 }
 body {
 margin: 0;
 padding: 0;
 perspective: 1px;
 transform-style: preserve-3d;
-overflow-y: scroll;
+overflow-y: none;
 overflow-x: scroll;
 font-family: Calibri;
 border-color: black;
@@ -22,7 +22,7 @@ width: 100vw;
 }
 header::before {
 content: '';
-display: black;
+display: block;
 position: absolute;
 left: 0;
 right: 0;
@@ -32,7 +32,7 @@ z-index: -1;
 transform-origin: center;
  min-height: 10vh;
  background-image: url(https://github.com/aeroserg/aviationphotography/blob/main/project/src/img/pedestalpanel.jpeg?raw=true);
- background-repeat: none;
+ background-repeat: space;
  background-size: cover;
  transition: 1s;
  transform: translateZ(-1px) scale(2);
@@ -40,26 +40,114 @@ transform-origin: center;
 
 header h1 {
 font-size: 100px;
-color: transparent;
+text-align: center;
+z-index: 1;
+flex: 0 0 auto;
+margin-left: 16.6666667%;
+width:67%;
+color: transparent;	
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to right, #0bcfcd, #f061bf);
+	padding-bottom: 20px;
+	border:solid white 10px;
+	border-radius: 15px;
 }
 header a{
 	text-decoration: none;
 	color: transparent;
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+margin-bottom: 150px;
 }
 
 header h2{
+margin-bottom: 150px;
 	color: transparent;
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to right, #0bcfcd, #0bcfcd, #0bcfcd, #0bcfcd, #30d5c8, #ed97e6, #f061bf, #f061bf, #f061bf, #f061bf, #f061bf);
 }
 
-.box {
-font-size: 50px;
+
+.col-md-4.offset-md-1 {
+	text-align: center;
+	font-size: 30px;
 color: #000;
-background-color: #000;
-height: 50px;
-} 
+z-index: 1;
+	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+border-radius: 15px;
+padding: 25px;
+margin-bottom: 150px;
+}
+
+.col-md-4.offset-md-2 {
+	text-align: center;
+	font-size: 30px;
+color: #000;
+z-index: 1;
+	background-image: linear-gradient(to right, #30d5c8, #ed97e6);
+padding: 25px;
+border-radius: 15px;
+margin-bottom: 150px;
+}
+
+.col-md-10.offset-md-1 {
+	text-align: center;
+	font-size: 30px;
+color: #000;
+z-index: 1;
+	background-image: linear-gradient(to right,#ed97e6, #30d5c8, #ed97e6);
+padding: 25px;
+border-radius: 15px;
+margin-bottom: 150px;
+}
+.col-md-6.offset-md-1 {
+	text-align: center;
+	font-size: 30px;
+color: #000;
+z-index: 1;
+	background-image: linear-gradient(to right, #30d5c8, #ed97e6);
+padding: 25px;
+border-radius: 15px;
+margin-bottom: 150px;
+}
+.col-md-3.offset-md-1 {
+	text-align: center;
+	font-size: 30px;
+color: #000;
+z-index: 1;
+	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+padding: 25px;
+border-radius: 15px;
+margin-bottom: 150px;
+}
+
+.col-md-2.offset-md-1 {
+	text-align: center;
+z-index: 1;
+background-color: #fff;
+padding: 20px;
+border-radius: 15px;
+margin-bottom: 150px;
+margin-left: 2.5%;
+}
+.round {
+	border-radius: 10px;
+	box-shadow: 0 0 4px #000;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.col-md-8.offset-md-2 {
+font-size: 50px;
+z-index: 1;
+font-family: arial;
+text-align: center;
+background-color: #fff;
+border-radius: 15px;
+margin-bottom: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+width:50%;
+margin-left: 25%;
+margin-right: 25%;
+}
