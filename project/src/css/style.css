@@ -77,6 +77,7 @@ z-index: 1;
 border-radius: 15px;
 padding: 25px;
 margin-bottom: 150px;
+border:solid white 10px;
 }
 
 .col-md-4.offset-md-2 {
@@ -88,6 +89,7 @@ z-index: 1;
 padding: 25px;
 border-radius: 15px;
 margin-bottom: 150px;
+border:solid white 10px;
 }
 
 .col-md-10.offset-md-1 {
@@ -99,6 +101,7 @@ z-index: 1;
 padding: 25px;
 border-radius: 15px;
 margin-bottom: 150px;
+border:solid white 10px;
 }
 .col-md-6.offset-md-1 {
 	text-align: center;
@@ -109,6 +112,7 @@ z-index: 1;
 padding: 25px;
 border-radius: 15px;
 margin-bottom: 150px;
+border:solid white 10px;
 }
 .col-md-3.offset-md-1 {
 	text-align: center;
@@ -119,6 +123,7 @@ z-index: 1;
 padding: 25px;
 border-radius: 15px;
 margin-bottom: 150px;
+border:solid white 10px;
 }
 
 .col-md-2.offset-md-1 {
@@ -136,7 +141,6 @@ margin-left: 2.5%;
 	display: inline-block;
 	width: 100%;
 	height: auto;
-	text-align: center;
 }
 .col-md-8.offset-md-2 {
 font-size: 50px;
@@ -145,7 +149,7 @@ font-family: arial;
 text-align: center;
 background-color: #fff;
 border-radius: 15px;
-margin-bottom: 50px;
+margin-bottom: 100px;
 padding-top: 20px;
 padding-bottom: 20px;
 width:50%;
