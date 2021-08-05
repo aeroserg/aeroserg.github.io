@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 html {
 height: 100;
 overflow: auto;
@@ -9,7 +13,7 @@ perspective: 1px;
 transform-style: preserve-3d;
 overflow-y: none;
 overflow-x: scroll;
-font-family: Calibri;
+font-family: 'Cormorant Garamond', serif;
 border-color: black;
 }
 header {
@@ -54,6 +58,7 @@ color: transparent;
 }
 header a{
 	text-decoration: none;
+	font-family: 'Monoton', cursive;
 	color: transparent;
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
@@ -62,6 +67,7 @@ margin-bottom: 150px;
 
 header h2{
 margin-bottom: 150px;
+	font-family: 'Quicksand', serif;
 	color: transparent;
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to right, #0bcfcd, #0bcfcd, #0bcfcd, #0bcfcd, #30d5c8, #ed97e6, #f061bf, #f061bf, #f061bf, #f061bf, #f061bf);
@@ -141,11 +147,12 @@ margin-left: 2.5%;
 	display: inline-block;
 	width: 100%;
 	height: auto;
+	text-align: center;
 }
 .col-md-8.offset-md-2 {
 font-size: 50px;
 z-index: 1;
-font-family: arial;
+font-family: 'Forum', cursive;
 text-align: center;
 background-color: #fff;
 border-radius: 15px;
