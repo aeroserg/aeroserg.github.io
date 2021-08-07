@@ -158,8 +158,6 @@ margin: 0;
 padding: 0;
 text-decoration: none;
 text-align: center;
-width: 100vw; 
-height: 300px;
 background-color: #000;
 padding-top: 50px;
 }
@@ -352,8 +350,6 @@ figure {
 	margin:0;
 	padding:0;
 	text-align: center;
-	width: 100vw; 
-	height: 22vh;
 	background-color: #000;
 	padding-top: 30px;
 
