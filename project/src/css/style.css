@@ -189,7 +189,7 @@ footer .row {
 	width: 100vw;
 	}
 footer .copyright {
-padding-top: 180px;
+padding-top: 210px;
 }
 footer dl {
  text-align: right;
@@ -361,7 +361,9 @@ figure {
 	footer .contacts {
 	text-align: left;
 	font-size: 25px;
-	color: #fff;
+	color: transparent;	
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to right, #30d8ca, #f061bf,#f061bf,#f061bf);	
 	padding-top:15px;
 	}
 
@@ -371,20 +373,14 @@ figure {
 	}
 	ul a {
 		text-decoration: none;
-		color: white;
+   color: transparent;	
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to right, #30d8ca, #f061bf,#f061bf,#f061bf);	
 	}
 	ul a:hover {
-	color: transparent;
+color: transparent;
 		-webkit-background-clip: text;
-		background-image: linear-gradient(to left, #30d5c8, #ed97e6);
-	}
-	footer h3 {
-		display: block;
-	color: transparent;
-		-webkit-background-clip: text;
-		background-image: linear-gradient(to left, #30d5c8, #30d5c8, #30d5c8, #ed97e6, #ed97e6, #ed97e6);
-		padding-top:20px;
-		padding-bottom: 20px;
+		background-image: linear-gradient(to right, red, red, orange, yellow, green, #38c, blue, violet, violet);
 	}
 	dl {
 		font-size: 25px;
