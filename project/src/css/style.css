@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-}
 html {
 margin: 0;
 padding: 0;
@@ -12,7 +12,7 @@ header {
 box-sizing: border-box;
 text-align: center;
 width: 100vw; 
-height: 10vh;
+height: 100px;
 position: fixed;
 background-color: #000;
 }
@@ -24,10 +24,8 @@ text-align: left;
 color: transparent;	
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to right, #30d8ca, #f061bf,#f061bf,#f061bf);	
- margin-top: 1%;
-	padding-bottom: 2.2%;
-	margin-left: 8%;
-	height: 10vh;
+line-height: 6rem;
+	margin-left: 40px;
 }
 
 
@@ -38,9 +36,14 @@ header a{
 	-webkit-background-clip: text;
 	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
 	text-align: right;
- margin-right: 8%;
+ margin-right: 20px;
  font-size: 30px;
- margin-top: 2.5%;
+ line-height: 6rem;
+ }
+header a:hover {
+color: transparent;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to right, red, red, orange, yellow, green, #38c, blue, violet, violet);
 }
 
 header h2{
@@ -48,10 +51,10 @@ header h2{
 	color: transparent;
 	-webkit-background-clip: text;
 	background-color: #f061bf;
-text-align: right;	
- font-size: 30px;
- margin-top: 2.5%;
- margin-right: 4%;
+ text-align: right;
+  font-size: 30px;
+ line-height: 6rem;
+  margin-right: 20px;
 }
 
 
@@ -63,58 +66,68 @@ background-color: #fff;
 border-radius: 20px;
 padding: 25px;
 margin-bottom: 100px;
-border:solid #000 10px;
+border:solid #c8fefd 10px;
 margin-top: 190px;
 }
 
 .col-md-4.offset-md-2 {
 	text-align: center;
 	font-size: 30px;
-color: #000;
 background-color: #fff;
+padding: 25px;
+margin-bottom: 100px;
+margin-top: 190px;
+	width: auto;
+	height: auto;
+
+}
+.myself {
+	border-radius: 15px;
+}
+.col-md-10.offset-md-1 {
+	text-align: center;
+	font-size: 25px;
+color: #000;
+background-color: #ceffd8;
 padding: 25px;
 border-radius: 15px;
 margin-bottom: 100px;
-border:solid #000 10px;
-margin-top: 190px;
-}
-
-.col-md-10.offset-md-1 {
-	text-align: center;
-	font-size: 30px;
-color: #fff;
-background-color: #000;
-padding: 25px;
-border-radius: 15px;
-margin-bottom: 150px;
-border:solid #000 10px;
 }
 .col-md-6.offset-md-1 {
 	text-align: center;
-	font-size: 30px;
-color: #fff;
-background-color:#000;
+	font-size: 25px;
+color: #000;
+background-color:#e5ffce;
 padding: 25px;
 border-radius: 15px;
-margin-bottom: 150px;
-border:solid #000 10px;
+margin-bottom: 100px;
 }
 .col-md-3.offset-md-1 {
 	text-align: center;
-	font-size: 30px;
-color: #fff;padding: 25px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 26px;
+color: #000;
+padding: 25px;
 border-radius: 15px;
-margin-bottom: 150px;
-border:solid #000 10px;
-background-color: #000;
+margin-bottom: 100px;
+background-color: #fff1f1;
+
+}
+figure {
+	display: block;
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	border-radius:40px 40px;
+	margin-bottom: 50px; 
 }
 
 .col-md-2.offset-md-1 {
 	text-align: center;
-background-color: #000;
+background-color: #fff;
 padding: 1%;
 border-radius: 15px;
-margin-bottom: 15%;
+margin-bottom: 3%;
 margin-left: 2.5%;
 }
 .round {
@@ -124,35 +137,36 @@ margin-left: 2.5%;
 	width: 100%;
 	height: auto;
 	text-align: center;
-	outline: 
 }
 .col-md-8.offset-md-2 {
 font-size: 50px;
-color: #000;
+color: #fff;
 font-family: 'Forum', cursive;
 text-align: center;
-background-color: #fff;
+background-color: #000;
 border-radius: 15px;
-border:10px solid #000;
+border:10px solid #fff;
 margin-bottom: 100px;
+margin-top: 30px;
 padding-top: 0.8%;
 padding-bottom: 0.9%;
-width:50%;
-margin-left: 25%;
-margin-right: 25%;
+align-content: center;
 }
+
 footer {
-	text-decoration: none;
-box-sizing: border-box;
+margin: 0;
+padding: 0;
+text-decoration: none;
 text-align: center;
 width: 100vw; 
-height: 40vh;
+height: 300px;
 background-color: #000;
+padding-top: 50px;
 }
 footer .contacts {
+line-height: 1.5rem;
 text-align: left;
-font-size: 20px;
-color: #fff;
+font-size: 15px;
 }
 
 ul {
@@ -161,17 +175,223 @@ ul {
 }
 ul a {
 	text-decoration: none;
-	color: white;
+ color: transparent;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to left, #30d5c8, #30d5c8, #30d5c8, #ed97e6, #ed97e6, #ed97e6);
 }
 ul a:hover {
 color: transparent;
-	-webkit-background-clip: text;
-	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to right, red, red, orange, yellow, green, #38c, blue, violet, violet);
 }
-footer h3 {
-color: transparent;
-	-webkit-background-clip: text;
-	background-image: linear-gradient(to left, #30d5c8, #ed97e6);
-	padding-top:20px;
-	padding-bottom: 20px;
+
+footer .row {
+	width: 100vw;
+	}
+footer .copyright {
+padding-top: 55%;
+}
+footer dl {
+ text-align: right;
+ color: white;
+ padding-top: 50px;
+ padding-right: 20px
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	html {
+	margin: 0;
+	padding: 0;
+
+	}
+	header {
+	box-sizing: border-box;
+	text-align: center;
+	width: 100vw; 
+	height: 150px;
+	position: fixed;
+	background-color: #000;
+	}
+	header h1{
+	font-size:50px;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: left;
+	color: transparent;	
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to right, #30d8ca, #f061bf,#f061bf,#f061bf);	
+	line-height: 9rem;
+		margin-left: 40px;
+	}
+	header a{
+		text-decoration: none;
+		font-family: 'Monoton', cursive;
+		color: transparent;
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+		text-align: right;
+	 margin-right: 20px;
+	 font-size: 30px;
+	 line-height: 9rem;
+	 }
+	header a:hover {
+	color: transparent;
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to right, red, red, orange, yellow, green, #38c, blue, violet, violet);
+	}
+
+	header h2{
+		font-family: 'Quicksand', serif;
+		color: transparent;
+		-webkit-background-clip: text;
+		background-color: #f061bf;
+	 text-align: right;
+	  font-size: 30px;
+	 line-height: 9rem;
+	  margin-right: 20px;
+	}
+	.col-md-4.offset-md-1 {
+		text-align: center;
+		font-size: 40px;
+	color: #000;
+	border:solid #c8fefd 10px;
+	border-radius: 20px;
+	padding: 25px;
+	margin-top: 22%;
+	flex-basis: 86.6vw;
+	margin-bottom: 5%;
+	}
+
+	.col-md-4.offset-md-2 {
+	padding: 25px;
+	border-radius: 15px;
+	border:solid #ebffce 10px;
+	margin-top: 1px;
+	flex-basis: 86vw;
+	margin-left: 8.5%;
+	margin-bottom: 5%;
+	}
+	.myself {
+		width: 80vw;
+		height: auto;
+	}
+
+	.col-md-10.offset-md-1 {
+		text-align: center;
+		font-size: 40px;
+	color: #000;
+ background-color: #ceffd8;
+	padding: 25px;
+	border-radius: 15px;
+	margin-bottom: 5%;
+	}
+	.col-md-6.offset-md-1 {
+		text-align: center;
+		font-size: 40px;
+	color: #000;
+ background-color:#e5ffce;
+	padding: 25px;
+	border-radius: 15px;
+	margin-bottom: 5.3%;
+	flex-basis: 85.5vw;
+	}
+	.col-md-3.offset-md-1 {
+		text-align: center;
+		font-size: 40px;
+	color: #000;padding: 25px;
+	border-radius: 15px;
+ background-color: #fff1f1;
+	flex-basis: 85.5vw;
+	margin-bottom: 5%;
+	}
+figure {
+	display: block;
+	background-color: #000;
+	margin:0;
+	margin-top:7%;
+	padding: 0;
+	border-radius: 30px;
+	box-sizing: border-box;
+	margin-bottom: 2%;
+}
+	.col-md-2.offset-md-1 {
+	background-color: #fff;
+	padding: 2%;
+	border-radius: 15px;
+	margin-left: 5.5%;
+	flex-basis: 43vw;
+	margin-bottom: 2.5vh;
+	}
+	.round {
+		border-radius: 1%;
+		box-shadow: 0 0 4px #000;
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		outline: 
+	}
+	.col-md-8.offset-md-2 {
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Forum', cursive;
+	text-align: center;
+	background-color: #000;
+	border-radius: 15px;
+	border:10px solid #fff;
+	margin-bottom: 3vh;
+	padding-top: 0.8%;
+	padding-bottom: 0.9%;
+	flex-basis: 80vw;
+	margin-left: 11%;
+	margin-top: 8%;
+	}
+	footer {
+	text-decoration: none;
+	margin:0;
+	padding:0;
+	text-align: center;
+	width: 100vw; 
+	height: 22vh;
+	background-color: #000;
+	padding-top: 30px;
+
+	}
+	footer .contacts {
+	text-align: left;
+	font-size: 25px;
+	color: #fff;
+	padding-top:15px;
+	}
+
+	ul {
+		list-style-type: none;
+		text-decoration: none;
+	}
+	ul a {
+		text-decoration: none;
+		color: white;
+	}
+	ul a:hover {
+	color: transparent;
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to left, #30d5c8, #ed97e6);
+	}
+	footer h3 {
+		display: block;
+	color: transparent;
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to left, #30d5c8, #30d5c8, #30d5c8, #ed97e6, #ed97e6, #ed97e6);
+		padding-top:20px;
+		padding-bottom: 20px;
+	}
+	dl {
+		font-size: 25px;
+	}
+	footer .copyright {
+ padding-top: 95%;
+}
+footer .row {
+	height: 100%;
 }
