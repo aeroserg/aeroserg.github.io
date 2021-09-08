@@ -282,3 +282,6 @@ header {
     padding: 5px 15px 5px 15px;
     border-radius:4px 0px 4px 0px;
 }
+.for-mobile-only {
+  display:none;
+}
