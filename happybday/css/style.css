@@ -89,6 +89,22 @@ header{
 .margin {
     margin-top: 40%;
 }
+.cert a {
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(33, 203, 160);
+    font-size: 22px;
+    margin: 0 auto;
+  
+}
+.cert {
+    display: flex;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
 @media screen and (min-width: 900px) {
     .margin_10 {
         margin-top: 5%;
