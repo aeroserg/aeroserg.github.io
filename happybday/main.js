@@ -43,7 +43,7 @@ moreeConfetti.addConfetti({
       
       function onLinkClicked(event) {
         event.preventDefault();
-        setTimeout(onAnimationComplete, 5000);
+        setTimeout(onAnimationComplete, 4500);
       }
   
       function onAnimationComplete() {
