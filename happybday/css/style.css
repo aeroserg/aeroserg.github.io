@@ -34,7 +34,7 @@ header{
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ), url('https://raw.githubusercontent.com/aeroserg/aeroserg.github.io/main/happybday/img/4.jpg');
+      ), url('https://raw.githubusercontent.com/aeroserg/aeroserg.github.io/main/happybday/img/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -42,7 +42,7 @@ header{
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ), url('https://raw.githubusercontent.com/aeroserg/aeroserg.github.io/main/happybday/img/3.jpg');
+      ), url('https://raw.githubusercontent.com/aeroserg/aeroserg.github.io/main/happybday/img/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -50,7 +50,7 @@ header{
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ), url('https://raw.githubusercontent.com/aeroserg/aeroserg.github.io/main/happybday/img/3.jpg');
+      ), url('https://raw.githubusercontent.com/aeroserg/aeroserg.github.io/main/happybday/img/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -93,16 +93,37 @@ header{
     padding: 20px 40px;
     text-decoration: none;
     color: white;
-    background-color: rgb(33, 203, 160);
+    box-shadow: 0 0 20px 5px #d435c4b3;
+    background-color: rgb(184, 67, 230);
+    border-radius: 20px;
     font-size: 22px;
     margin: 0 auto;
-  
+    transition: all 0.5s;
+    
 }
 .cert {
     display: flex;
     font-size: 22px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 50px;
+}
+.cert a:hover {
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px 5px #cc41fff8;
+    background-color: rgb(215, 27, 232);
+    border-radius: 20px;
+    font-size: 22px;
+    margin: 0 auto;
+    transform: rotate(5040deg);
+    transition: transform 5s;
+    
+}
+.cert a:focus {
+    background-color: rgb(233, 49, 193);
+    transform: rotate(5040deg);
+    transition: transform 5s;
 }
 
 @media screen and (min-width: 900px) {
