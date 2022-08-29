@@ -23,8 +23,8 @@ moreeConfetti.addConfetti({
 
   jsConfetti.addConfetti({
     emojis: ['🦄'],
-    emojiSize: 100,
-    confettiNumber: 60,
+    emojiSize: 150,
+    confettiNumber: 80,
   })
 
   gsap.registerPlugin(ScrollTrigger);
@@ -36,18 +36,18 @@ moreeConfetti.addConfetti({
 
 
   const tl = gsap.timeline();
-  tl.fromTo(".red", {autoAlpha: 2}, {autoAlpha: 0, duration: 1})
-    .fromTo(".orange", {autoAlpha: 0}, {autoAlpha: 2, duration: 1})
-    .fromTo(".orange", {autoAlpha: 2}, {autoAlpha: 0, duration: 1})
-    .fromTo(".purple", {autoAlpha: 0}, {autoAlpha: 2, duration: 1})
-    .fromTo(".purple", {autoAlpha: 2}, {autoAlpha: 0, duration: 1})
-    .fromTo(".green", {autoAlpha: 0}, {autoAlpha: 2, duration: 1})
+  tl.fromTo(".red", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
+    .fromTo(".orange", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
+    .fromTo(".orange", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
+    .fromTo(".purple", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
+    .fromTo(".purple", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
+    .fromTo(".green", {autoAlpha: 0}, {autoAlpha: 2, duration: 2})
 
    const bfa = ScrollTrigger.create({
     animation: tl,
     trigger: ".main_story",
     start: "top top",
-    end: "+=7800",
+    end: "+=2600",
     scrub: 1,
     pin: true,
     anticipatePin: 1
