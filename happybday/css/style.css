@@ -117,7 +117,7 @@ header{
     font-size: 22px;
     margin: 0 auto;
     transform: rotate(5040deg);
-    transition: transform 5s;
+    transition: transform 5s cubic-bezier(1, 0.08, 1, 1);
     
 }
 .cert a:focus {
