@@ -23,8 +23,8 @@ moreeConfetti.addConfetti({
 
   jsConfetti.addConfetti({
     emojis: ['🦄'],
-    emojiSize: 150,
-    confettiNumber: 80,
+    emojiSize: 100,
+    confettiNumber: 60,
   })
 
   gsap.registerPlugin(ScrollTrigger);
@@ -33,6 +33,24 @@ moreeConfetti.addConfetti({
     ease: "none",
     duration: 1
   });
+
+  window.onload = function() {
+    var body = document.querySelector('body');
+    var links = document.querySelectorAll('a');  
+    
+    links.forEach(function (link) {
+      link.addEventListener('click', onLinkClicked);
+      
+      function onLinkClicked(event) {
+        event.preventDefault();
+        setTimeout(onAnimationComplete, 5000);
+      }
+  
+      function onAnimationComplete() {
+        window.location = link.href;  
+      }
+    });
+  }
 
 
   const tl = gsap.timeline();
