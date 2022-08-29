@@ -4,7 +4,7 @@ canvas {
     }
 header h1 {
     font-size: 55px;
-    font-family: 'Geometria',  sans-serif;
+    font-family: Geometria;
     text-align: center;
 }
 h2 {
@@ -12,7 +12,7 @@ h2 {
     text-align: center;
 }
 body {
-    font-family: Geometria;
+    font-family: 'Geometria', sans-serif;
     color: aliceblue;
 }
 header{
@@ -86,11 +86,14 @@ header{
 .panel p {
     text-align: center;
 }
-.greetings {
-    margin-top: 25%;
+.margin {
+    margin-top: 40%;
 }
 @media screen and (min-width: 900px) {
-    .greetings {
+    .margin_10 {
+        margin-top: 5%;
+    }
+    .margin {
         margin-top: 10%;
     }
 }
