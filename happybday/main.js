@@ -43,7 +43,7 @@ moreeConfetti.addConfetti({
       
       function onLinkClicked(event) {
         event.preventDefault();
-        setTimeout(onAnimationComplete, 3000);
+        setTimeout(onAnimationComplete, 3500);
       }
   
       function onAnimationComplete() {
@@ -59,7 +59,7 @@ moreeConfetti.addConfetti({
     .fromTo(".orange", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
     .fromTo(".purple", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
     .fromTo(".purple", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
-    .fromTo(".green", {autoAlpha: 0}, {autoAlpha: 2, duration: 2})
+    .fromTo(".green", {autoAlpha: 0}, {autoAlpha: 2, duration: 4})
 
    const bfa = ScrollTrigger.create({
     animation: tl,
