@@ -59,13 +59,14 @@ moreeConfetti.addConfetti({
     .fromTo(".orange", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
     .fromTo(".purple", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
     .fromTo(".purple", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
-    .fromTo(".green", {autoAlpha: 0}, {autoAlpha: 2, duration: 4})
+    .fromTo(".green", {autoAlpha: 0}, {autoAlpha: 2, duration: 2})
+    .fromTo(".cert", {autoAlpha: 0}, {autoAlpha: 10, duration: 4})
 
    const bfa = ScrollTrigger.create({
     animation: tl,
     trigger: ".main_story",
     start: "top top",
-    end: "+=2600",
+    end: "+=3000",
     scrub: 1,
     pin: true,
     anticipatePin: 1
