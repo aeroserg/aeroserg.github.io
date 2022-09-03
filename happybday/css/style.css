@@ -116,8 +116,8 @@ header{
     border-radius: 20px;
     font-size: 22px;
     margin: 0 auto;
-    transform: rotate(5040deg);
-    transition: transform 5s cubic-bezier(1, 0.47, 1, 1);
+    transform: rotate(5040deg) scale(50);
+    transition: transform 8s cubic-bezier(1, -0.02, 0.8, 0.84);
 
     
 }
