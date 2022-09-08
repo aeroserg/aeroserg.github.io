@@ -72,3 +72,15 @@ moreeConfetti.addConfetti({
     anticipatePin: 1
     },
   )
+   // Store the window width
+var windowWidth = window.innerWidth
+window.addEventListener("resize", function(e) {
+	// Check window width has actually changed and it's not just iOS triggering a resize event on scroll
+	if (window.innerWidth != windowWidth) {
+		windowWidth = window.innerWidth
+		bfa.refresh();
+	} else {
+		// prevent default in case resizing was only height
+		e.preventDefault();
+	}
+});
