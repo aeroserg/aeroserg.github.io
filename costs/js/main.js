@@ -15,7 +15,7 @@ let totalSumCosts
 
 function show() {
 
-    if (inputFixed.value > 0 && inputVariable.value > 0 && (inputFixed.value < 99999 && inputVariable.value < 99999)) {
+    if (inputFixed.value > 0 && inputVariable.value > 0 && (inputFixed.value < 999999 && inputVariable.value < 999999)) {
         totalNumberLine.classList.remove('hidden');
         totalNumberP.classList.remove('hidden');
         FixedNumber.innerText = inputFixed.value + '$';
@@ -23,7 +23,7 @@ function show() {
         totalSumCosts = parseInt(inputFixed.value) + parseInt(inputVariable.value)
         totalNumber.innerHTML = totalSumCosts + '$';
     }
-    else if (inputFixed.value > 99999 || inputVariable.value > 99999) {
+    else if (inputFixed.value > 999999 || inputVariable.value > 999999) {
         alert('Please enter not so big numbers, i only learn how to count:(')
 
     } else {
@@ -46,7 +46,7 @@ function show() {
 
         }
     }
-    else if  (inputIncome.value >= 999999 ) {
+    else if  (inputIncome.value >= 9999999 ) {
         alert('Please enter not so big numbers, i only learn how to count:(');
     }
     else if  (inputIncome.value <= 0 ) {
