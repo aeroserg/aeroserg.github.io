@@ -34,7 +34,7 @@ input::placeholder {
 
 }
 img {
-    width: 95%;
+    width: 350px;
 }
 .btn {
     background-color: greenyellow;
@@ -45,20 +45,26 @@ img {
     display: inline-block;
     width: 70%;
     rotate: -35deg;
+    -moz-rotate: -35deg;
+    -webkit-rotate: -35deg;
+    -ms-rotate: -35deg;
     z-index: 2;
     position: absolute;
     bottom:120px;
-    left:50px
+    left:40px
 }
 .decrease_line {
     border-top: 2px solid #ff00b3;
     display: inline-block;
     width: 70%;
     rotate: 35deg;
+    -moz-rotate: 35deg;
+    -webkit-rotate: 35deg;
+    -ms-rotate: 35deg;
     z-index: 2;
     position: absolute;
-    bottom:120px;
-    left:50px
+    bottom:110px;
+    left:40px
 }
 .stable_line {
     border-top: 2px solid #00ff51;
@@ -67,7 +73,7 @@ img {
     z-index: 2;
     position: absolute;
     bottom:80px;
-    left:75px
+    left:62px
 }
 .total_line {
     border-top: 2px solid #ff0000;
@@ -75,9 +81,12 @@ img {
     width: 70%;
     z-index: 2;
     rotate: -35deg;
+    -moz-rotate: -35deg;
+    -webkit-rotate: -35deg;
+    -ms-rotate: -35deg;
     position: absolute;
     bottom:157px;
-    left:48px;
+    left:40px;
 }
 .increase_number {
     position: absolute;
