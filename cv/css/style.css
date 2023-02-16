@@ -1,3 +1,6 @@
+body {
+    box-sizing: border-box;
+}
 h2, h3, h4 {
     text-transform: uppercase;
 }
@@ -17,7 +20,7 @@ header {
     box-sizing: border-box;
 }
 .photo img {
-    min-width: 100px;
+   
     max-width: 200px;
     border-radius: 10px;
 }
@@ -76,13 +79,13 @@ li {
 }
 .projects {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
-.project:nth-child(n+5) {
-    margin-top: 30px;
-}
+
 .project {
-    width: 25%;
+    width: 49%;
     display: flex;
     text-align: center;
     align-items: center;
@@ -91,15 +94,16 @@ li {
     background-color: rgba(110, 255, 141, 0.173);
     border-radius: 10px;
     padding:10px;
+    margin-bottom: 2rem;
 }
-.project:nth-child(odd) {
+.project:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.173);
 }
-.project:nth-child(odd) {
+.project {
     border: 2px solid rgba(26, 26, 26, 0.444);
 }
-.project:nth-child(odd) {
-    margin:0 10px;
+.project:nth-of-type(odd) {
+    margin-right: 10px;
 }
 .skills span {
     color: rgb(193, 193, 193);
@@ -113,16 +117,12 @@ footer {
     padding: 30px 50px;
     text-align: center;
 }
-@media screen and (max-width: 576px) {
-    .projects {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .project:nth-child(n+3) {
-        margin-top: 30px;
-    }
+
+
+@media screen and (max-width: 767px) {
+  
     .project {
-        width: 45%;
+        width: 100%;
         display: flex;
         text-align: center;
         align-items: center;
@@ -132,22 +132,16 @@ footer {
         border-radius: 10px;
         padding:10px;
     }
-    .project:nth-child(4) {
+    .project:nth-of-type(odd) {
         background-color: rgba(110, 255, 141, 0.175);
+        margin-right: 0;
     }
-    .project:nth-child(1) {
-        background-color: rgba(110, 255, 141, 0.175);
+    .project:nth-of-type(even) {
+        background-color: rgb(255, 255, 255);
+      
     }
-    .project:nth-child(2) {
-        border: 2px solid rgba(26, 26, 26, 0.444);
-    }
-    .project:nth-child(3) {
-        border: 2px solid rgba(26, 26, 26, 0.444);
-        background-color:rgba(110, 255, 141, 0);
-    }
-    .project:nth-child(odd) {
-        margin-right: 10px;
-    }
+ 
+    
     .language_en {
         width: 80%;
     }
@@ -177,10 +171,11 @@ footer {
     .photo {
         float: unset;
         margin: 0 auto;
+        width: 100%;
     }
     .photo img {
-        min-width: 160px;
+        
         max-width: 250px;
-        margin: 0 auto;
+      
     }
 }
