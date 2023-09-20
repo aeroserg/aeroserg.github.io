@@ -78,30 +78,27 @@ li {
     line-height: 1.5;
 }
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-
 .project {
-    width: 49%;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    background-color: rgba(110, 255, 141, 0.173);
+    width: fit-content;
     border-radius: 10px;
-    padding:10px;
+    padding:2rem 1rem;
+    margin:.6rem 1rem;
+    box-shadow: 0px 0px 13px -5px;
+}
+.project span:last-of-type {
     margin-bottom: 2rem;
 }
 .project:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.173);
 }
-.project {
-    border: 2px solid rgba(26, 26, 26, 0.444);
-}
+
 .project:nth-of-type(odd) {
     margin-right: 10px;
 }
