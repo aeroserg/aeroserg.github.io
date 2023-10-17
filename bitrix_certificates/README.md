@@ -1,23 +1,24 @@
 ### Сертификаты bitrix
 
-(сертификат_1)[https://aeroserg.github.io/bitrix_certificates/certificate_1.pdf]
+[сертификат_1](https://aeroserg.github.io/bitrix_certificates/certificate_1.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_2.pdf](сертификат_2)
+[сертификат_2](https://aeroserg.github.io/bitrix_certificates/certificate_2.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_3.pdf](сертификат_3)
+[сертификат_3](https://aeroserg.github.io/bitrix_certificates/certificate_3.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_4.pdf](сертификат_4)
+[сертификат_4](https://aeroserg.github.io/bitrix_certificates/certificate_4.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_5.pdf](сертификат_5)
+[сертификат_5](https://aeroserg.github.io/bitrix_certificates/certificate_5.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_6.pdf](сертификат_6)
+[сертификат_6](https://aeroserg.github.io/bitrix_certificates/certificate_6.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_7.pdf](сертификат_7)
+[сертификат_7](https://aeroserg.github.io/bitrix_certificates/certificate_7.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_8.pdf](сертификат_8)
+[сертификат_8](https://aeroserg.github.io/bitrix_certificates/certificate_8.pdf)
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_9.pdf](сертификат_9)
+[сертификат_9](https://aeroserg.github.io/bitrix_certificates/certificate_9.pdf)
+
 
 ### Сертификат SQL
 
-[https://aeroserg.github.io/certificate_sql.pdf](сертификат)
+[https://aeroserg.github.io/certificate_sql.pdf](https://aeroserg.github.io/certificate_sql.pdf)
