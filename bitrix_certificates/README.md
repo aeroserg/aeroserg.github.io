@@ -1,6 +1,6 @@
 ### Сертификаты bitrix
 
-[https://aeroserg.github.io/bitrix_certificates/certificate_1.pdf](сертификат_1)
+(сертификат_1)[https://aeroserg.github.io/bitrix_certificates/certificate_1.pdf]
 
 [https://aeroserg.github.io/bitrix_certificates/certificate_2.pdf](сертификат_2)
 
