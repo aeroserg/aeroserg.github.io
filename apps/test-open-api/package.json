@@ -1,6 +1,6 @@
 {
   "name": "test-open-api",
-  "hompeage": "https://aeroserg.github.io/apps/test-open-api",
+  "hompeage": "https://aeroserg.github.io/apps/test-open-api/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
