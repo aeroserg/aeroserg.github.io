@@ -44,3 +44,9 @@ function smoothScroll(scroll) {
         leapY -= step; if (leapY < stopY) leapY = stopY; timer++;
     }
 }
+
+document.querySelector('.iframe-class')?.addEventListener('click', (e) => {
+    console.log( e)
+    console.log( e.target.parentElement.attributes)
+    Boolean(e.target.parentElement.attributes['data-hidden'].value) ? e.target.parentElement.attributes['data-hidden'].value = false :  e.target.parentElement.attributes['data-hidden'].value = true;
+})
