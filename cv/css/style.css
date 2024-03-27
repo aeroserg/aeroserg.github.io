@@ -163,5 +163,20 @@ footer {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-  
+    font-weight: 900;
+    transition: all cubic-bezier(0.4, 0, 1, 1) 3s;
+
+}
+.if-container a:hover {
+    background-image: linear-gradient(to left, #e509cf, #09e122);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    /* font-size: larger; */
+    transition:all cubic-bezier(0.4, 0, 1, 1) 10s;
+    transform:
+        rotateX(10deg) 
+        /* rotateZ(1000deg)  */
+        rotateY(3060deg) ;
 }
