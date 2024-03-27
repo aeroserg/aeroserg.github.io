@@ -127,10 +127,15 @@ footer {
 
 .if-container {
     position: fixed;
-    bottom: 0;
+    bottom: 1rem;
+    left: 1rem;
     border-radius: 7px;
     box-shadow: 0px 0px 6px -1px;
     transition: all .5s;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 
 .iframe-class {
@@ -145,11 +150,18 @@ footer {
 }
 [data-hidden="true"] {
     height: 60px;
-    width: 50%;
+    padding: 0 3rem;
     margin: 0 auto;
 }
 [data-hidden="false"] {
     height: 100%;
     left: 0;
     width: 100%;
+}
+.if-container a {
+    background-image: linear-gradient(to left, #09e122, #e509cf);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
 }
