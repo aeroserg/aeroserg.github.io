@@ -140,7 +140,7 @@ input:checked + .slider:before {
     transform: translateX(14px);
 }
 
-@media screen and (max-width: 997px) {
+@media screen and (max-width: 550px) {
     .container {
        flex-direction: column;
     }
